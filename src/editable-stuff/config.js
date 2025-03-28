@@ -53,7 +53,7 @@ const about = {
   imageSize: 375,
   message:
     "I'm Saka, a PhD Student at the University of Denver's Ritchie School of Engineering and Computer Science, specializing in cybersecurity and IoT privacy with a focus on creating secure, accessible technology for underrepresented groups, particularly older adults. I hold an MSc in Computer Network Security from the University of Greenwich, London. My research has been published in leading venues including CHI, IEEE BUILDSEC, and GSA. I'm passionate about developing innovative solutions that balance robust security with exceptional user experience, ensuring technology remains both safe and accessible for all users.",
-  resume: "https://drive.google.com/file/d/1HUllXHC208ww4LwrsM3wEqszKcGg0GtW/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1dY5P5lr1UxXtdjoBu7QgVEbbWrLSngak/view?usp=sharing",
 };
 
 // PROJECTS SECTION
