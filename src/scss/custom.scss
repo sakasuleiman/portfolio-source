@@ -1,0 +1,126 @@
+@import "~bootstrap/scss/bootstrap.scss";
+@import "./animations";
+@import "./index";
+@import "./stars";
+@import "./typography";
+
+// Alternating section background colors
+#education {
+    background-color: #f9f9f9;
+  }
+  
+  #experience {
+    background-color: #ffffff;
+  }
+  
+  #research {
+    background-color: #f9f9f9;
+  }
+  
+  #projects {
+    background-color: #ffffff;
+  }
+  
+  #skills {
+    background-color: #f9f9f9;
+  }
+
+
+// Enhanced card styling
+.card {
+    border: none;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+  }
+  
+  // Optional: Add accent border to cards
+  #education .card {
+    border-left: 4px solid #009688;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  #experience .card {
+    border-left: 4px solid #2196F3;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  #research .publication-item {
+    border-left: 4px solid #FF9800;
+    padding-left: 15px;
+    margin-bottom: 20px;
+  }
+
+
+// Typography improvements - adjusted sizing
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+  
+  body, p, li, a {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  // Section headings - reduced size
+  .display-4 {
+    font-size: 2.2rem; // Reduced from 2.5rem
+    font-weight: 700;
+    margin-bottom: 1.5rem; // Reduced from 2rem
+    
+    &::after {
+      content: "";
+      display: block;
+      height: 3px;
+      width: 80px;
+      background-color: #009688;
+      margin: 0.5rem auto 0;
+    }
+  }
+  
+  // Fix for experience section layout
+  #experience .card-title {
+    font-size: 1.4rem; // Smaller size for institution name
+    margin-right: 8px; // Add some space between title and date
+    max-width: 80%; // Limit width to prevent overflow
+  }
+  
+  #experience .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #experience .d-flex {
+    flex-wrap: wrap; // Allow elements to wrap on smaller screens
+  }
+  
+  // Add more spacing between sections but not too much
+  .jumbotron {
+    padding: 3rem 0; // Reduced from 4rem
+  }
+
+
+
+  // Enhanced navigation styling
+.navbar-nav .nav-item {
+    margin: 0 5px;
+  }
+  
+  .navbar .nav-link {
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 0.5rem 0.8rem;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    
+    &:hover {
+      color: #009688 !important;
+      border-bottom: 2px solid #009688;
+    }
+  }
+  
