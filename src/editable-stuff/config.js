@@ -12,21 +12,19 @@ const mainBody = {
   message: "PhD Student | Security, Privacy & IoT Researcher | Innovating Secure & Accessible Technology for All",
   icons: [
     {
-      image: "fa-github",
+      image: "fa-brands fa-github", // Updated class
       url: "https://github.com/sakasuleiman",
     },
-
     {
-      image: "fa-linkedin",
+      image: "fa-brands fa-linkedin", // Updated class
       url: "https://www.linkedin.com/in/sakasuleiman/",
     },
     {
-      image: "fa-twitter",
+      image: "fa-twitter", // Classic Twitter icon
       url: "https://x.com/SakaSuleiman1",
     },
-    
     {
-      image: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/researchgate.svg",
+      image: "https://cdn.jsdelivr.net/npm/simple-icons@9.0.0/icons/researchgate.svg",
       url: "https://www.researchgate.net/profile/Suleiman-Saka",
     },
   ],
@@ -53,7 +51,7 @@ const about = {
   imageSize: 375,
   message:
     "I'm Saka, a PhD Student at the University of Denver's Ritchie School of Engineering and Computer Science, specializing in cybersecurity and IoT privacy with a focus on creating secure, accessible technology for underrepresented groups, particularly older adults. I hold an MSc in Computer Network Security from the University of Greenwich, London. My research has been published in leading venues including CHI, IEEE BUILDSEC, and GSA. I'm passionate about developing innovative solutions that balance robust security with exceptional user experience, ensuring technology remains both safe and accessible for all users.",
-  resume: "https://drive.google.com/file/d/1dY5P5lr1UxXtdjoBu7QgVEbbWrLSngak/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1HUllXHC208ww4LwrsM3wEqszKcGg0GtW/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -101,16 +99,15 @@ export const education = {
       institution: "UNIVERSITY OF DENVER",
       location: "Colorado, USA",
       degree: "PhD Computer Science",
-      cgpa: "3.70/4.00",
+      cgpa: "3.75/4.00",
       year: "Expected Fall 2026",
       courseworks: [
         "Human-Computer Interaction (HCI)",
         "Computer Security",
         "Ethical Hacking",
-        "Networking",
+        "Computer Networking",
         "Artificial Intelligence (AI)",
-        "Human Centered AI",
-        "Machine Learning",
+        "Human-Centered AI",        
         "Discrete Structure"
       ]
     },
@@ -138,7 +135,7 @@ export const education = {
         "Control", 
         "Power", 
         "Electromechanical Devices",
-         "Networking"
+         "Computer Networking"
       ]
     }
   ]
@@ -160,11 +157,6 @@ export const research = {
       conference: "BuildSec 2024",
       citation: "<strong>Saka S</strong>. & Das S. (2024), <strong>Evaluating Privacy Measures in Healthcare Apps Predominantly Used by Older Adults</strong>",
       paperLink: "https://ieeexplore.ieee.org/document/10874253"
-    },
-    {
-      conference: "WiSec 2025",
-      citation: "<strong>Saka S</strong>. & Das S. (2024), <strong>SoK - Internet of Things Security and Privacy Posture Evaluation of Older Adults through Literature Review</strong> – Under review",
-      paperLink: null
     },
     {
       conference: "ACM-TIoT",
